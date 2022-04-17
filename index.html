@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/492877605f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./mealCalc.js" defer></script>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div id="header">
+      <h2>Tip Calculator</h2>
+    </div>
+    <div class="action-container">
+      <div id="add" class="option"><i class="fa-solid fa-plus"></i></div>
+      <div id="clear" class="option"><i class="fa-solid fa-trash-can"></i></div>
+      <div id="calcMeal" class="option">
+        <i class="fa-solid fa-calculator"></i>
+      </div>
+    </div>
+
+    <div id="single-user-meal">
+      <div class="user-meal" id="user-meal">
+        <input type="number" class="item" id="inp-1" />
+        <div class="plus sign">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <input type="number" class="item" id="inp-2" />
+        <div id="calc" class="sign">
+          <i class="fa-solid fa-equals"></i>
+        </div>
+      </div>
+    </div>
+
+    <div id="usersPersonalTip" class="usersPersonalTip"></div>
+
+    <div id="totalTip"></div>
+  </body>
+</html>
